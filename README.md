@@ -7,7 +7,7 @@ Options you need to define:
 ```
 export nucmethod=0
 
-#Modify -nucmethod (the number following -nucmethod) to the multiple substitution method you would prefer
+#Modify nucmethod to the multiple substitution method you would prefer
 #0	(Uncorrected)
 #1	(Jukes-Cantor)
 #2	(Kimura)
@@ -26,7 +26,7 @@ export folderlocation=locus_specific_fasta
 
 ```
 for i in $folderlocation/*;
-  do distmat -nucmethod 3 -sequence $i -outfile $i.out;
+  do distmat -nucmethod $nucmethod -sequence $i -outfile $i.out;
 done;
 
 Rscript sumplotdist.R $folderlocation

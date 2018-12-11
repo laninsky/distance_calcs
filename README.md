@@ -29,6 +29,6 @@ for i in $folderlocation/*;
   do distmat -nucmethod $nucmethod -sequence $i -outfile $i.out;
 done;
 
-Rscript sumplotdist.R $folderlocation
+Rscript todist.R $folderlocation
 
 ```

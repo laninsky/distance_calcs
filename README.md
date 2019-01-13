@@ -32,3 +32,8 @@ done;
 Rscript todist.R $folderlocation
 
 ```
+To cite EMBOSS:
+Rice, P. Longden, I. and Bleasby, A. 2000. EMBOSS: The European Molecular Biology Open Software Suite. Trends in Genetics 16, (6) pp276--277
+
+To cite this pipeline:
+TBD

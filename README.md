@@ -23,7 +23,7 @@ export nucmethod=3
 export folderlocation=locus_specific_fasta
 ```
 
-
+After ensuring that you have copied todist.R to your local computer, you can run this pipeline by:
 ```
 for i in $folderlocation/*;
   do distmat -nucmethod $nucmethod -sequence $i -outfile $i.out;
@@ -33,9 +33,10 @@ Rscript todist.R $folderlocation
 
 ```
 To cite EMBOSS:
-
+```
 Rice, P. Longden, I. and Bleasby, A. 2000. EMBOSS: The European Molecular Biology Open Software Suite. Trends in Genetics 16, (6) pp276--277
-
+```
 To cite this pipeline:
-
+```
 TBD
+```

@@ -1,4 +1,4 @@
-# distance_calcs
+# distance_calcs v0.0
 Calculates pairwise distance between samples for a folder of fasta files
 
 Uses: http://emboss.sourceforge.net/apps/release/6.6/emboss/apps/distmat.html - distmat will need to be in your path
@@ -31,11 +31,14 @@ done;
 
 Rscript todist.R $folderlocation
 ```
-To cite EMBOSS:
+### To cite EMBOSS:
 ```
 Rice, P. Longden, I. and Bleasby, A. 2000. EMBOSS: The European Molecular Biology Open Software Suite. Trends in Genetics 16, (6) pp276--277
 ```
 To cite this pipeline:
 ```
-TBD
+Alexander, A. 2018. distance_calcs v0.0. Available from: https://github.com/laninsky/distance_calcs
 ```
+
+### Version history
+0.0: Version used in TBD

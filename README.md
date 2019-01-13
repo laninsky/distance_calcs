@@ -31,9 +31,11 @@ done;
 
 Rscript todist.R $folderlocation
 ```
-### To cite EMBOSS:
+### Programs/packages necessary for the pipeline:
 ```
 Rice, P. Longden, I. and Bleasby, A. 2000. EMBOSS: The European Molecular Biology Open Software Suite. Trends in Genetics 16, (6) pp276--277
+
+R: R Core Team. 2015. R: A language and environment for statistical computing. URL http://www.R-project.org/. R Foundation for Statistical Computing, Vienna, Austria. https://www.r-project.org/
 ```
 To cite this pipeline:
 ```

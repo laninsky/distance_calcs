@@ -30,7 +30,6 @@ for i in $folderlocation/*;
 done;
 
 Rscript todist.R $folderlocation
-
 ```
 To cite EMBOSS:
 ```

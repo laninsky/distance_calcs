@@ -40,7 +40,9 @@ R: R Core Team. 2015. R: A language and environment for statistical computing. U
 To cite this pipeline:
 ```
 Alexander, A. 2018. distance_calcs v0.0. Available from: https://github.com/laninsky/distance_calcs
+
+Gustafson, G.T., Alexander, A., Sproul, J.S., Pflug, J.M., Maddison, D.R. and Short, A.E., 2019. Ultraconserved element (UCE) probe set design: Base genome and initial design parameters critical for optimization. Ecology and Evolution.
 ```
 
 ### Version history
-0.0: Version used in TBD
+0.0: Version used in Gustafson et al. (2019)
